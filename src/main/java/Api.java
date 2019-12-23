@@ -23,7 +23,7 @@ public class Api {
     }
 
     public static void main(String[] args) {
-        final Configuration cfg = new Configuration();
+        final Configuration cfg = new Configuration(Configuration.VERSION_2_3_23);
         cfg.setClassForTemplateLoading(Api.class,"/");
         cfg.setDefaultEncoding("UTF-8");
 
