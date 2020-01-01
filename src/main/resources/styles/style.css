@@ -1,9 +1,10 @@
 * { font-weight: normal; font-family: arial; box-sizing: border-box; }
 body { margin: 20px; }
 ul { margin-top: 0; padding: 0; }
-.post { padding: 15px; border: 1px solid #ccc; border-radius: 5px; margin: 15px 0; background: #fc6a63; }
-.post h2 { margin-top: 0; padding-bottom: 15px; border-bottom: 1px solid #ddd; }
+.post { padding: 15px; border: 1px solid #ccc; border-radius: 5px; margin: 15px 0; background: #f0f0f0; }
+.post h2 { margin-top: 0; padding-bottom: 15px;}
 .post h3 { font-size: 16px; margin-bottom: 5px; }
+.post p { border-bottom: 1px solid #ddd; padding-bottom: 15px; }
 .categories li { display: inline-block; }
 .categories li:after { content: ","; }
 .categories li:last-child:after { content: ""; }
