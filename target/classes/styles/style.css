@@ -8,3 +8,5 @@ ul { margin-top: 0; padding: 0; }
 .categories li { display: inline-block; }
 .categories li:after { content: ","; }
 .categories li:last-child:after { content: ""; }
+.post_header { font-size: 16px; margin: 5px 0; }
+.post_header ul { display: flex; align-items: center; list-style: none;}
