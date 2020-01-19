@@ -32,20 +32,31 @@ public class Api {
 
         Gson gson = new Gson();
 
-        post("/add-post",(req,res)->{
-            res.type("application/json");
-            Blog blog = gson.fromJson(req.body(), Blog.class);
-            return userservice.addpost(blog);
-        }, gson::toJson);
+        get("/add-post",((req,res)->{
+            res.status(200);
+            res.type("text/html");
+
+            Map<String, Object> map = new HashMap<>();
+            StringWriter writer = new StringWriter();
+
+            try {
+                Template template = cfg.getTemplate("add_post.ftl");
+                template.process(map,writer);
+            }
+            catch (Exception e) {
+                Spark.halt(500);
+            }
+            return writer;
+        }));
 
         get("/hello", (req, res) -> "Hello World");
 
-        get("/", (req,res)->{
+        get("/web", (req,res)->{
             res.type("application/json");
             return userservice.getAllPosts();
         }, gson::toJson);
 
-        get("/web", ((request, response) -> {
+        get("/", ((request, response) -> {
             response.status(200);
             response.type("text/html");
 

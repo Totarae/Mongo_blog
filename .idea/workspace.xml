@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f72c72d-5a2d-4933-9b4c-50032cc49614" name="Default" comment="styles edit">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/add_post.ftl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Api.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Api.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Blog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Blog.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/index.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/index.ftl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/styles/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Api.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Api.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/index.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/index.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/Blog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/Blog.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/styles/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -307,6 +312,9 @@
       <workItem from="1577639858662" duration="1858000" />
       <workItem from="1577897258873" duration="3505000" />
       <workItem from="1577908566500" duration="2727000" />
+      <workItem from="1579120847164" duration="1219000" />
+      <workItem from="1579444621685" duration="840000" />
+      <workItem from="1579448980324" duration="4993000" />
     </task>
     <servers />
   </component>

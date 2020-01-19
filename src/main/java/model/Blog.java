@@ -10,6 +10,7 @@ public class Blog {
     private ObjectId id;
     private String title;
     private String description;
+
     private String oth;
 
     public Blog(ObjectId id) {
@@ -54,5 +55,13 @@ public class Blog {
 
     public void setDescription(String description) {
         this.description = description;
+    }
+
+    public String getOth() {
+        return oth;
+    }
+
+    public void setOth(String oth) {
+        this.oth = oth;
     }
 }
