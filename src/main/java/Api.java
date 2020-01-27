@@ -87,5 +87,12 @@ public class Api {
                 return "No post founnd";
             }
         }, gson::toJson);
+
+        post("/new_post", (req, res) -> {
+            String a, b, c;
+            Blog blg1 = new Blog(req.queryParams("title"),req.queryParams("post"),req.queryParams("username"));
+            userservice.addpost(blg1);
+            return null;
+        });
     }
 }

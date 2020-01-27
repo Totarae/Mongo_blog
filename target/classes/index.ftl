@@ -8,11 +8,9 @@
 </head>
 <body>
     <h1>Blog Starter</h1>
-    <!--div class="panel-body">
-
-        <li><a href="/add-post">Add Post</a></li>
-    </div-->
-    <a href="/add-post"><button type="button" class="btn btn-primary">Add Post</button></a>
+    <a href="/add-post">
+        <button type="button" class="btn btn-primary">Add Post</button>
+    </a>
     <#list posts as post>
     <div class="post">
         <div class="post_header">
