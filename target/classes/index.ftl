@@ -18,7 +18,13 @@
             <span>${post.oth}</span>
             <ul>
                 <li>Дата поста</li>
-                <li>Время чтения</li>
+                <li>
+                    <#if post.publish_date??>
+                        ${post.publish_date?datetime?string('dd.MM.yyyy HH:mm')}
+                    <#else>
+
+                    </#if>
+                </li>
             </ul>
         </div>
         <h2>${post.title}</h2>

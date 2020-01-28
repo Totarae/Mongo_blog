@@ -4,10 +4,12 @@
     <list default="true" id="3f72c72d-5a2d-4933-9b4c-50032cc49614" name="Default" comment="styles edit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Api.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Api.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/add_post.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/add_post.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Blog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Blog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hello.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/index.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/index.ftl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Api.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Api.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/add_post.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/add_post.ftl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/index.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/index.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/Blog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/Blog.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -315,7 +317,8 @@
       <workItem from="1579727059709" duration="395000" />
       <workItem from="1580045189417" duration="1189000" />
       <workItem from="1580062044243" duration="7172000" />
-      <workItem from="1580153398923" duration="2291000" />
+      <workItem from="1580153398923" duration="2456000" />
+      <workItem from="1580238350417" duration="4462000" />
     </task>
     <servers />
   </component>

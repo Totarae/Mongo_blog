@@ -6,6 +6,7 @@ import service.UserService;
 import spark.Spark;
 
 import java.io.StringWriter;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -90,7 +91,8 @@ public class Api {
 
         post("/new_post", (req, res) -> {
             String a, b, c;
-            Blog blg1 = new Blog(req.queryParams("title"),req.queryParams("post"),req.queryParams("username"));
+            Date date = new Date();
+            Blog blg1 = new Blog(req.queryParams("title"),req.queryParams("post"),req.queryParams("username"),date);
             userservice.addpost(blg1);
             return null;
         });
