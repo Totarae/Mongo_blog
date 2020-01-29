@@ -17,12 +17,18 @@
             <div class="author_avatar"></div>
             <span>${post.oth}</span>
             <ul>
-                <li>Дата поста</li>
                 <li>
                     <#if post.publish_date??>
                         ${post.publish_date?datetime?string('dd.MM.yyyy HH:mm')}
                     <#else>
 
+                    </#if>
+                </li>
+                <li>
+                    <#if post.description?length &lt; 27>
+                        1 мин. чтения
+                    <#else>
+                        5 мин. чтения
                     </#if>
                 </li>
             </ul>
