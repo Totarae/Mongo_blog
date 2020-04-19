@@ -2,6 +2,7 @@ import com.google.gson.Gson;
 import freemarker.template.Configuration;
 import freemarker.template.Template;
 import model.Blog;
+import resources.DBPreferences;
 import service.UserService;
 import spark.Spark;
 
@@ -10,11 +11,15 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.prefs.Preferences;
 
 import static spark.Spark.*;
 
 public class Api {
-    public static UserService userservice = new UserService();
+
+    public static Preferences prefs = new DBPreferences().getCredentials();
+    public static UserService userservice = new UserService(prefs);
+
     static int getHerokuAssignedPort() {
         ProcessBuilder processBuilder = new ProcessBuilder();
         if (processBuilder.environment().get("PORT") != null) {
